@@ -1,0 +1,32 @@
+body{
+    font-family:"Chakra Petch";
+    background-color:#A6B0F0 ;
+    color:#6D4276; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Rock 3D";
+    border: 2px dotted #320547;
+    background-color: #7C7BB0;
+    font-size: 30pt;
+    color: #320547;
+    padding: 5px;
+
+}
+
+header {
+    text-align: center;
+}
+#hero, footer{
+    background-color:#869962 ;
+    color: #F5E89D;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #F5E89D;
+}
+#hero img {
+    width: 300px;
+}
+#bio {
+    text-align: center;
+}
