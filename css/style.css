@@ -35,13 +35,16 @@ header {
     box-shadow:  3px 3px 10px rgba(0,0,0,5) inset;
     background-image: radial-gradient(#7C7BB0, #869962 );
     
-    
+
+    /* Hero Section*/
 }
 #hero img {
     width: 300px;
+    /* Bio Section */
 }
 #bio {
     text-align: center;
+    /* Hobbies Section */
 }
 #hobbies ul li{
     list-style:none;
@@ -55,5 +58,20 @@ header {
     color: #F5E89D;
 
 }
+/* Gallery Section*/
+#gallery {
+    font-size: 15pt;
+    border: 2px none;
+    border-radius: 30px;
+    background-image: radial-gradient(#A6B0F0,#7C7BB0);
+}
+#gallery img {
+    max-width: 100%;
+    border-radius: 20px;
+}
 
-
+#gallery figure {
+    text-align: center;
+    padding: 10px;
+    
+}
