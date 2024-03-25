@@ -117,8 +117,8 @@ header {
 
 }
 
-
-@media screen (min-width: 60em){
+/* tablet size */
+@media screen and (min-width: 60em){
    figure{
     display:grid;
 grid-template-columns: 2fr 1fr;}
@@ -130,6 +130,10 @@ figcaption {
     align-items: center;
     font-size: 2rem;
     margin-left: 1rem;
+}
+#lit div {
+  max-width:100%;
+    columns: 40rem;;
 }
    
 }
