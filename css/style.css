@@ -178,5 +178,10 @@ figcaption {
     
 }
 
+/* contact form*/
+#formElements {
+    display: grid;
+}
+
 
 
