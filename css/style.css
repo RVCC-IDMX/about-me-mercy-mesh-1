@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #6D4276 ;
     font-size: 30pt;
     color: #320547;
-    padding: 10px;
+    padding: 8px;
     box-shadow: 2px 2px 5px rgba(0,0,0,5);
     background-image:radial-gradient(#F5E89D ,#6D4276 );
    
@@ -83,19 +83,18 @@ header {
     text-align: center;
     padding: 10px
 
+
 }
 
 /* literature */
 #lit {
     border: 2px none;
-    margin-bottom: 2rem;
+    margin-bottom: 10px;
 } 
 #lit div{
     padding: 2rem;
     max-width: 40rem;
     margin: 0 auto;
-
-
     
 }
 #lit div p {
@@ -120,6 +119,16 @@ header {
     
 
 }
+  /* video*/
+  #video {
+    text-align: center;
+    padding: 10px;
+    max-width : 100%;
+    border-radius : 20px;
+  }
+  #video iframe {
+    max-width: 100%;
+  }
 
 
 /* tablet size */
@@ -164,6 +173,7 @@ figcaption {
         display: block;
     
     }
+ 
  
     
 }
